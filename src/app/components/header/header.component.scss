@@ -1,0 +1,33 @@
+mat-toolbar {
+  height: 50px;
+  background-color: #0f172a;
+  color: #61646b;
+
+  div,
+  input {
+    background-color: #0f172a;
+    border: 1px solid #61646b;
+    color: #fff;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+
+  }
+
+  select{
+    background-color: #0f172a;
+    color: #fff;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+  }
+
+
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-icon{
+font-size: 20px;
+margin-top: 2px;
+}

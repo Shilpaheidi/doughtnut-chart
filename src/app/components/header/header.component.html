@@ -1,0 +1,49 @@
+<p>
+  <mat-toolbar>
+    <button
+      (click)="sidenav.toggle()"
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon class="">menu</mat-icon>
+    </button>
+    <div><input type="text" class="p-1 lt-xs:hidden" placeholder="search products" /></div>
+    <span class="example-spacer"></span>
+    <button style="font-size: 14px;" class="bg-green-400 w-36 text-white text-sm p-1 lt-xs:hidden">
+      + Create New Project
+    </button>
+    <button
+      mat-icon-button
+      class="example-icon lt-xs:hidden"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon class="text-white h-4 lt-xs:hidden">dashboard</mat-icon>
+    </button>
+    <button
+      mat-icon-button
+      class="example-icon lt-xs:hidden"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon class="text-white lt-xs:hidden">mail</mat-icon>
+    </button>
+    <button
+      mat-icon-button
+      class="example-icon lt-xs:hidden"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon class="text-white lt-xs:hidden">notifications</mat-icon>
+    </button>
+
+    <img
+      src="../../../assets/profile"
+      alt=""
+      class="rounded-full h-8 w-8 ml-1 mr-2"
+    />
+
+    <select class="lt-xs:hidden border-none">
+      <option value="option1">Henry Keilin</option>
+      <option value="option2">Henry Keilin</option>
+    </select>
+  </mat-toolbar>
+</p>

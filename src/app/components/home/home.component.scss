@@ -1,0 +1,208 @@
+.square {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: #36383d;
+
+  padding: 2px;
+}
+
+.custom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(390deg);
+  color: #00fc2e;
+}
+
+.potential-growth {
+  width: 300px;
+  height: 100px;
+  background-color: #0f172a;
+}
+
+@media screen and (max-width: 1024px) {
+  .potential-growth {
+    width: 200px;
+    height: 100px;
+    background-color: #0f172a;
+  }
+
+}
+
+.transaction-history {
+  width: 400px;
+  height: 410px;
+  background-color: #0f172a;
+}
+
+.open-projects {
+  width: 850px;
+  height: 410px;
+  background-color: #0f172a;
+}
+
+@media screen and (max-width: 598px) {
+  .open-projects {
+    width: 450px;
+    height: 400px;
+    background-color: #0f172a;
+  }
+
+  .transaction-history {
+    width: 300px;
+    height: 410px;
+    background-color: #0f172a;
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+  .open-projects {
+    width: 850px;
+    height: 400px;
+    background-color: #0f172a;
+  }
+
+
+}
+  
+
+
+@media screen and (max-width: 620px) {
+  .open-projects {
+    width: 310px;
+    height: 400px;
+    background-color: #0f172a;
+  }
+ 
+}
+
+
+.subtitles {
+  text-align: end;
+  margin-bottom: 20px; 
+}
+.chart-container {
+  position: relative;
+  display: inline-block;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+  font-family: Arial;
+
+}
+  
+
+.canvasjs-chart.credit {
+  display: none;
+}
+
+.transfer {
+  background-color: #121212;
+  width: 250px;
+  height: 50px;
+}
+
+.square-light-blue {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #0d8fc2;
+
+  padding: 2px;
+}
+
+.custom-icon-file {
+  position: absolute;
+}
+
+.square-light-green {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #0dc24c;
+
+  padding: 2px;
+}
+
+.square-light-violet {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #8a2be2;
+
+  padding: 2px;
+}
+
+.square-light-orange {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #e22b2b;
+
+  padding: 2px;
+}
+
+.square-light-yellow {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+
+  padding: 2px;
+}
+
+@media screen and (min-width: 620) {
+  .last-row {
+    // width: 293px;
+    height: 100px;
+    background-color: #0f172a;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .last-row {
+    // width: 397px;
+    height: 100px;
+    background-color: #0f172a;
+  }
+}
+
+.circle {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: #0d8fc2;
+  padding: 2px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-setting {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+
+}
+/* home.component.scss */
+.revenue-growth {
+  width: 308px;
+  height: 100px;
+  background-color: #0f172a;
+}
+.title-text {
+  color: #fff; // Set the title color to white
+}
+
+.title-text .subtitles.text {
+  color: #008000; // Set the "total" subtitle to green
+}
